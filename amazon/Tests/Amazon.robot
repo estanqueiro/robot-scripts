@@ -2,7 +2,7 @@
 Documentation  This is some basic info about the whole suite
 
 Resource  ../Resources/Common.robot  # for Setup & Teardown
-Resource  ../Resources/Amazon.robot  # for lower level keywords in script
+Resource  ../Resources/AmazonApp.robot  # for lower level keywords in script
 
 Suite Setup  Common.Insert Testing Data
 Test Setup  Common.Begin Web Test
@@ -13,21 +13,33 @@ Suite Teardown  Common.Cleanup Testing Data
 ${BROWSER} =  firefox
 ${START_URL} =  http://www.amazon.com
 ${SEARCH_TERM} =  Lamborghini Gallardo
+${LOGIN_EMAIL} =  admin@robotframeworktutorial.com
+${LOGIN_PASSWORD} =  myPassword1
 
 *** Test Cases ***
-Logged out user can search for products
+Should be able to login
+    [Tags]  First
+    AmazonApp.Login  ${LOGIN_EMAIL}  ${LOGIN_PASSWORD}
+
+Logged out user should be able to search for products
     [Tags]  Current
-    Amazon.Search for Products
+    AmazonApp.Search for Products
 
-Logged out user can view a product
+Logged out user should be able to view a product
     [Tags]  Smoke
-    Amazon.Search for Products
-    Amazon.Select Product from Search Results
+    AmazonApp.Search for Products
+    AmazonApp.Select Product from Search Results
 
-User must sign in to check out
+Logged out user should be able to add products to cart
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
-    Amazon.Search for Products
-    Amazon.Select Product from Search Results
-    Amazon.Add Product to Cart
-    Amazon.Begin Checkout
+    AmazonApp.Search for Products
+    AmazonApp.Select Product from Search Results
+    AmazonApp.Add Product to Cart
+
+Logged out user should be asked to sigh in to check out
+    [Tags]  Smoke
+    AmazonApp.Search for Products
+    AmazonApp.Select Product from Search Results
+    AmazonApp.Add Product to Cart
+    AmazonApp.Begin Checkout

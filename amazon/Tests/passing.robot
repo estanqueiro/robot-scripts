@@ -10,7 +10,7 @@ Library  Selenium2Library
 User can search for products
     #Here we pass variable input data to a user-defined *** keywords ***
     # Try it: Change the URL and/or browser input values (ie, chrome, firefox, etc.)
-    @{url_and_browser} =  Set Variable  http://www.google.com  firefox
+    @{url_and_browser} =  Create List  http://www.google.com  firefox
 
     # Begin Web Test  http://www.google.com  firefox
     Begin Web Test  @{url_and_browser}

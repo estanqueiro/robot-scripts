@@ -2,13 +2,17 @@
 Documentation  Amazon top navigation
 Library  Selenium2Library
 
+*** Variables ***
+${SEARCH_BAR} =     id=twotabsearchtextbox
+${SEARCH_BUTTON} =  css=.nav-input
+
 *** Keywords ***
 Search for Products
     Enter Search Term
     Submit Search
 
 Enter Search Term
-    input text  id=twotabsearchtextbox  ${SEARCH_TERM}
+    Input Text  ${SEARCH_BAR}  ${SEARCH_TERM}
 
 Submit Search
-    click button  css=.nav-input
+    Click Button  ${SEARCH_BUTTON}

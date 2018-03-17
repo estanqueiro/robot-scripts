@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8968a98-6d3b-4c70-a480-800dd3d36f9f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Resources/Common.robot" afterPath="$PROJECT_DIR$/Resources/Common.robot" />
-      <change beforePath="$PROJECT_DIR$/Resources/PO/LandingPage.robot" afterPath="$PROJECT_DIR$/Resources/PO/LandingPage.robot" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Resources/Amazon.robot" afterPath="$PROJECT_DIR$/Resources/AmazonApp.robot" />
       <change beforePath="$PROJECT_DIR$/Resources/PO/SearchPage.robot" afterPath="$PROJECT_DIR$/Resources/PO/SearchPage.robot" />
-      <change beforePath="$PROJECT_DIR$/Resources/PO/SearchResultsPage.robot" afterPath="$PROJECT_DIR$/Resources/PO/SearchResultsPage.robot" />
+      <change beforePath="$PROJECT_DIR$/Resources/PO/SignInPage.robot" afterPath="$PROJECT_DIR$/Resources/PO/SignInPage.robot" />
       <change beforePath="$PROJECT_DIR$/Results/log.html" afterPath="$PROJECT_DIR$/Results/log.html" />
       <change beforePath="$PROJECT_DIR$/Results/output.xml" afterPath="$PROJECT_DIR$/Results/output.xml" />
       <change beforePath="$PROJECT_DIR$/Results/report.html" afterPath="$PROJECT_DIR$/Results/report.html" />
+      <change beforePath="$PROJECT_DIR$/Results/selenium-screenshot-1.png" afterPath="$PROJECT_DIR$/Results/selenium-screenshot-1.png" />
       <change beforePath="$PROJECT_DIR$/Tests/Amazon.robot" afterPath="$PROJECT_DIR$/Tests/Amazon.robot" />
+      <change beforePath="$PROJECT_DIR$/Tests/passing.robot" afterPath="$PROJECT_DIR$/Tests/passing.robot" />
       <change beforePath="$PROJECT_DIR$/geckodriver.log" afterPath="$PROJECT_DIR$/geckodriver.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,54 +29,20 @@
       <file leaf-file-name="Amazon.robot" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/Amazon.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="324">
+              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
               <folding>
-                <element signature="e#0#366#0" expanded="true" />
+                <element signature="e#0#369#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Amazon.robot" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Amazon.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductPage.robot" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/PO/ProductPage.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CartPage.robot" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/PO/CartPage.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignInPage.robot" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SignInPage.robot" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/PO/SignInPage.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -82,14 +50,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LandingPage.robot" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/PO/LandingPage.robot">
+      <file leaf-file-name="passing.robot" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/passing.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,8 +63,8 @@
       <file leaf-file-name="SearchPage.robot" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/PO/SearchPage.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+            <state relative-caret-position="306">
+              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
                 <element signature="e#0#79#0" expanded="true" />
               </folding>
@@ -106,25 +72,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Common.robot" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Common.robot">
+      <file leaf-file-name="AmazonApp.robot" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Resources/AmazonApp.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+            <state relative-caret-position="198">
+              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchResultsPage.robot" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/PO/SearchResultsPage.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#0#281#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,19 +95,22 @@
         <option value="$PROJECT_DIR$/tests/Amazon.robot" />
         <option value="$PROJECT_DIR$/tests/passing.robot" />
         <option value="$PROJECT_DIR$/Resources/Amazon.robot" />
-        <option value="$PROJECT_DIR$/Tests/Amazon.robot" />
-        <option value="$PROJECT_DIR$/Resources/PO/SearchPage.robot" />
         <option value="$PROJECT_DIR$/Resources/PO/LandingPage.robot" />
         <option value="$PROJECT_DIR$/Resources/Common.robot" />
         <option value="$PROJECT_DIR$/Resources/PO/SearchResultsPage.robot" />
+        <option value="$PROJECT_DIR$/Tests/passing.robot" />
+        <option value="$PROJECT_DIR$/Resources/PO/SearchPage.robot" />
+        <option value="$PROJECT_DIR$/Resources/PO/SignInPage.robot" />
+        <option value="$PROJECT_DIR$/Tests/Amazon.robot" />
+        <option value="$PROJECT_DIR$/Resources/AmazonApp.robot" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1084" />
-    <option name="y" value="6" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="1082" />
+    <option name="y" value="24" />
     <option name="width" value="838" />
-    <option name="height" value="898" />
+    <option name="height" value="926" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -287,18 +244,27 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <flatten-packages value="true" />
+      <is-preview-enabled value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="954" extended-state="6" />
+    <frame x="1082" y="24" width="838" height="926" extended-state="4" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15120088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3398773" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998747" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998747" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39030302" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18569636" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -325,7 +291,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#366#0" expanded="true" />
+            <element signature="e#0#369#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -335,16 +301,18 @@
         <state relative-caret-position="18">
           <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Amazon.robot">
+    <entry file="file://$PROJECT_DIR$/Resources/AmazonApp.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
+          <folding>
+            <element signature="e#0#281#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -363,7 +331,7 @@
         <state relative-caret-position="162">
           <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -373,7 +341,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -383,7 +351,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#366#0" expanded="true" />
+            <element signature="e#0#369#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -393,7 +361,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#366#0" expanded="true" />
+            <element signature="e#0#369#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -403,7 +371,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#366#0" expanded="true" />
+            <element signature="e#0#369#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -413,7 +381,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#366#0" expanded="true" />
+            <element signature="e#0#369#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -423,7 +391,7 @@
         <state relative-caret-position="378">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#0#366#0" expanded="true" />
+            <element signature="e#0#369#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -456,32 +424,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/passing.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Amazon.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/PO/SearchResultsPage.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -491,17 +439,7 @@
         <state relative-caret-position="90">
           <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/PO/SearchPage.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#79#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -511,25 +449,7 @@
         <state relative-caret-position="90">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Amazon.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/PO/ProductPage.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -539,17 +459,65 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/PO/ProductPage.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/passing.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/PO/SearchPage.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#79#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/PO/SignInPage.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Amazon.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/AmazonApp.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#281#0" expanded="true" />
           </folding>
         </state>
       </provider>

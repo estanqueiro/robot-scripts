@@ -7,6 +7,15 @@ Resource  ../Resources/PO/CartPage.robot
 Resource  ../Resources/PO/SignInPage.robot
 
 *** Keywords ***
+Login
+    [Arguments]  ${Username}  ${Password}
+    SignInPage.Login With Valid Credentials     ${Username}  ${Password}
+
+Login with Invalid Credentials
+    SignInPage.Fill "Email" Field  bogus@bogus.com
+    SignInPage.Fill "Password" Field  bad Password
+    SignInPage.Click "Sign In" Button
+
 Search for Products
     LandingPage.Load
     LandingPage.Verify Page Loaded
