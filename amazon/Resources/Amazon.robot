@@ -10,7 +10,8 @@ Resource  ../Resources/PO/LandingPage.robot
 Search for Products
     LandingPage.Load
     LandingPage.Verify Page Loaded
-#    SearchPage.Search for Products
+    Enter Search Term
+    Submit Search
 #    SearchResultsPage.Verify Search Completed
 
 Select Product from Search Results
@@ -24,3 +25,9 @@ Add Product to Cart
 Begin Checkout
     CartPage.Proceed to Checkout
     SignInPage.Verify Page Loaded
+
+Enter Search Term
+    input text  id=twotabsearchtextbox  Ferrari 458
+
+Submit Search
+    click button  css=.nav-input
