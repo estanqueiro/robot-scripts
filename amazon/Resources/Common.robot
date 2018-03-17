@@ -3,7 +3,7 @@ Library  Selenium2Library
 
 *** Keywords ***
 Begin Web Test
-    open browser  about:blank  chrome
+    open browser  about:blank  firefox
 
 End Web Test
     close browser

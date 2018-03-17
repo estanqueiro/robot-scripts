@@ -4,10 +4,10 @@ Documentation  This is some basic info about the whole suite
 Resource  ../Resources/Common.robot  # for Setup & Teardown
 Resource  ../Resources/Amazon.robot  # for lower level keywords in script
 
-# Suite Setup  Insert Testing Data
+Suite Setup  Common.Insert Testing Data
 Test Setup  Common.Begin Web Test
 Test Teardown  Common.End Web Test
-# Suite Teardown  Cleanup Testing Data
+Suite Teardown  Common.Cleanup Testing Data
 
 *** Variables ***
 #${BROWSER} =  firefox
@@ -15,29 +15,19 @@ Test Teardown  Common.End Web Test
 #${SEARCH_TERM} =  Lamborghini Gallardo
 
 *** Test Cases ***
-#Logged out user can search for products
-#    [Tags]  Current
-#    Amazon.Search for Products
+Logged out user can search for products
+    [Tags]  Current
+    Amazon.Search for Products
 
-#Logged out user can view a product
-#    [Tags]  Smoke
-#    Amazon.Search for Products
-#    Amazon.Select Product from Search Results
-#
+Logged out user can view a product
+    [Tags]  Smoke
+    Amazon.Search for Products
+    Amazon.Select Product from Search Results
+
 User must sign in to check out
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
     Amazon.Search for Products
-#    Amazon.Select Product from Search Results
-#    Amazon.Add Product to Cart
-#    Amazon.Begin Checkout
-
-*** Keywords ***
-#Search for Products
-#    Load
-#    LandingPage.Verify Page Loaded
-#    SearchPage.Search for Products
-#    SearchResultsPage.Verify Search Completed
-
-#Load
-#    go to  http://www.amazon.com
+    Amazon.Select Product from Search Results
+    Amazon.Add Product to Cart
+    Amazon.Begin Checkout
