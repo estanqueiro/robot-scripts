@@ -10,9 +10,9 @@ Test Teardown  Common.End Web Test
 Suite Teardown  Common.Cleanup Testing Data
 
 *** Variables ***
-#${BROWSER} =  firefox
-#${START_URL} =  http://www.amazon.com
-#${SEARCH_TERM} =  Lamborghini Gallardo
+${BROWSER} =  firefox
+${START_URL} =  http://www.amazon.com
+${SEARCH_TERM} =  Lamborghini Gallardo
 
 *** Test Cases ***
 Logged out user can search for products
