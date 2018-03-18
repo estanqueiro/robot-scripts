@@ -1,18 +1,17 @@
 *** Settings ***
 Documentation  Main steps of the test case
-Resource  ../Resources/PO/LandingPage.robot
-Resource  ../Resources/PO/TopMenu.robot
-Resource  ../Resources/PO/TeamPage.robot
+Resource  ./PO/Landing.robot
+Resource  ./PO/Team.robot
+Resource  ./PO/TopNav.robot
 
 *** Keywords ***
-Navigate to "Front-Office" Page
-    LandingPage.Load
-    LandingPage.Verify Page Loaded
+Go to "Front-Office" Page
+    Landing.Navigate to
+    Landing.Verify Page Loaded
 
-Select "Team" Item from Top Menu
-    TopMenu.Verify "Top Menu" Loaded
-    TopMenu.Select "Team" Item
+Go to "Team" Page
+    TopNav.Select "Team" Page
+    Team.Verify Page Loaded
 
-Validate Match Requirements
-    TeamPage.Verify "Team Item" Loaded
-    TeamPage.Validate Match Requirements
+Validate "Team" Page
+    Team.Validate Page Contents

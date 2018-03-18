@@ -3,11 +3,11 @@ Documentation  Loads the front-office page and verifies if it is loaded.
 Library  Selenium2Library
 
 *** Variables ***
-${LANDINGPAGE_WELCOME_TEXT} =       Welcome To Our Studio!
+${LANDING_NAVIGATION_ELEMENT} =  id=mainNav
 
 *** Keywords ***
-Load
-    Go To  ${START_URL}
+Navigate to
+    go to  ${START_URL}
 
 Verify Page Loaded
-    Wait Until Page Contains  ${LANDINGPAGE_WELCOME_TEXT}
+    wait until page contains element  ${LANDING_NAVIGATION_ELEMENT}

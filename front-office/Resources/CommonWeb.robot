@@ -5,9 +5,10 @@ Library  Selenium2Library
 *** Keywords ***
 Begin Web Test
     [Documentation]  This keyword starts the browser
-    Open Browser  about:blank  ${BROWSER}
+    open browser  about:blank  ${BROWSER}
+    #maximize browser window
 
 End Web Test
     [Documentation]  This keyword stops the browser
-    Close Browser
+    close all browsers
 
