@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180318 12:15:07.786" generator="Robot 3.0.2 (Python 2.7.12 on linux2)">
+<suite source="/home/estanqueiro/PycharmProjects/robot-scripts/front-office/Tests/FrontOffice.robot" id="s1" name="FrontOffice">
+<test id="s1-t1" name="Should be able to access &quot;Team&quot; page">
+<kw type="setup" name="Begin Web Test" library="Common">
+<doc>This keyword starts the browser</doc>
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20180318 12:15:07.864" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20180318 12:15:09.890" starttime="20180318 12:15:07.864"></status>
+</kw>
+<status status="PASS" endtime="20180318 12:15:09.890" starttime="20180318 12:15:07.864"></status>
+</kw>
+<kw name="Navigate to &quot;Front-Office&quot; Page" library="FrontOfficeApp">
+<kw name="Load" library="LandingPage">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${START_URL}</arg>
+</arguments>
+<msg timestamp="20180318 12:15:09.892" level="INFO">Opening url 'http://robotframeworktutorial.com/front-office'</msg>
+<status status="PASS" endtime="20180318 12:15:16.275" starttime="20180318 12:15:09.892"></status>
+</kw>
+<status status="PASS" endtime="20180318 12:15:16.275" starttime="20180318 12:15:09.891"></status>
+</kw>
+<kw name="Verify Page Loaded" library="LandingPage">
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>${WELCOME_TEXT}</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20180318 12:15:21.505" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20180318 12:15:21.505" starttime="20180318 12:15:21.292"></status>
+</kw>
+<msg timestamp="20180318 12:15:21.506" level="FAIL">Text 'Welcome To Our Studio!' did not appear in 5 seconds</msg>
+<status status="FAIL" endtime="20180318 12:15:21.506" starttime="20180318 12:15:16.276"></status>
+</kw>
+<status status="FAIL" endtime="20180318 12:15:21.506" starttime="20180318 12:15:16.275"></status>
+</kw>
+<status status="FAIL" endtime="20180318 12:15:21.506" starttime="20180318 12:15:09.891"></status>
+</kw>
+<kw type="teardown" name="End Web Test" library="Common">
+<doc>This keyword stops the browser</doc>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20180318 12:15:21.577" starttime="20180318 12:15:21.508"></status>
+</kw>
+<status status="PASS" endtime="20180318 12:15:21.578" starttime="20180318 12:15:21.507"></status>
+</kw>
+<status status="FAIL" endtime="20180318 12:15:21.578" critical="yes" starttime="20180318 12:15:07.863">Text 'Welcome To Our Studio!' did not appear in 5 seconds</status>
+</test>
+<doc>This test shows the Front Office's team</doc>
+<status status="FAIL" endtime="20180318 12:15:21.582" starttime="20180318 12:15:07.787"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="FrontOffice" pass="0">FrontOffice</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
