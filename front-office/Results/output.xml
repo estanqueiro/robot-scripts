@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20180318 15:20:54.109" generator="Robot 3.0.2 (Python 2.7.12 on linux2)">
+<robot generated="20180403 21:01:06.545" generator="Robot 3.0.2 (Python 2.7.12 on linux2)">
 <suite source="/home/estanqueiro/PycharmProjects/robot-scripts/front-office/Tests/Front_Office.robot" id="s1" name="Front Office">
 <test id="s1-t1" name="Should be able to access &quot;Team&quot; page">
 <kw type="setup" name="Begin Web Test" library="CommonWeb">
@@ -10,10 +10,10 @@
 <arg>about:blank</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20180318 15:20:54.199" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
-<status status="PASS" endtime="20180318 15:20:56.193" starttime="20180318 15:20:54.199"></status>
+<msg timestamp="20180403 21:01:06.642" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20180403 21:01:09.238" starttime="20180403 21:01:06.642"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:20:56.194" starttime="20180318 15:20:54.198"></status>
+<status status="PASS" endtime="20180403 21:01:09.239" starttime="20180403 21:01:06.640"></status>
 </kw>
 <kw name="Go to &quot;Front-Office&quot; Page" library="FrontOfficeApp">
 <kw name="Navigate to" library="Landing">
@@ -22,10 +22,10 @@
 <arguments>
 <arg>${START_URL}</arg>
 </arguments>
-<msg timestamp="20180318 15:20:56.198" level="INFO">Opening url 'http://www.robotframeworktutorial.com/front-office'</msg>
-<status status="PASS" endtime="20180318 15:21:00.004" starttime="20180318 15:20:56.198"></status>
+<msg timestamp="20180403 21:01:09.244" level="INFO">Opening url 'http://www.robotframeworktutorial.com/front-office'</msg>
+<status status="PASS" endtime="20180403 21:01:13.358" starttime="20180403 21:01:09.244"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:00.004" starttime="20180318 15:20:56.197"></status>
+<status status="PASS" endtime="20180403 21:01:13.359" starttime="20180403 21:01:09.240"></status>
 </kw>
 <kw name="Verify Page Loaded" library="Landing">
 <kw name="Wait Until Page Contains Element" library="Selenium2Library">
@@ -33,11 +33,11 @@
 <arguments>
 <arg>${LANDING_NAVIGATION_ELEMENT}</arg>
 </arguments>
-<status status="PASS" endtime="20180318 15:21:00.027" starttime="20180318 15:21:00.005"></status>
+<status status="PASS" endtime="20180403 21:01:13.414" starttime="20180403 21:01:13.359"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:00.027" starttime="20180318 15:21:00.004"></status>
+<status status="PASS" endtime="20180403 21:01:13.414" starttime="20180403 21:01:13.359"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:00.027" starttime="20180318 15:20:56.195"></status>
+<status status="PASS" endtime="20180403 21:01:13.414" starttime="20180403 21:01:09.239"></status>
 </kw>
 <kw name="Go to &quot;Team&quot; Page" library="FrontOfficeApp">
 <kw name="Select &quot;Team&quot; Page" library="TopNav">
@@ -46,18 +46,18 @@
 <arguments>
 <arg>${TOP_NAV_TEAM_LINK}</arg>
 </arguments>
-<msg timestamp="20180318 15:21:00.030" level="INFO">Clicking element 'css=#bs-example-navbar-collapse-1 &gt; ul li:nth-child(5) &gt; a'.</msg>
-<status status="PASS" endtime="20180318 15:21:00.108" starttime="20180318 15:21:00.030"></status>
+<msg timestamp="20180403 21:01:13.415" level="INFO">Clicking element 'css=#bs-example-navbar-collapse-1 &gt; ul li:nth-child(5) &gt; a'.</msg>
+<status status="PASS" endtime="20180403 21:01:13.533" starttime="20180403 21:01:13.415"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20180318 15:21:03.110" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" endtime="20180318 15:21:03.111" starttime="20180318 15:21:00.108"></status>
+<msg timestamp="20180403 21:01:16.536" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20180403 21:01:16.536" starttime="20180403 21:01:13.533"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:03.112" starttime="20180318 15:21:00.029"></status>
+<status status="PASS" endtime="20180403 21:01:16.536" starttime="20180403 21:01:13.414"></status>
 </kw>
 <kw name="Verify Page Loaded" library="Team">
 <kw name="Wait Until Page Contains Element" library="Selenium2Library">
@@ -65,25 +65,25 @@
 <arguments>
 <arg>${TEAM_HEADER_LABEL}</arg>
 </arguments>
-<status status="PASS" endtime="20180318 15:21:03.148" starttime="20180318 15:21:03.114"></status>
+<status status="PASS" endtime="20180403 21:01:16.557" starttime="20180403 21:01:16.537"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:03.148" starttime="20180318 15:21:03.113"></status>
+<status status="PASS" endtime="20180403 21:01:16.557" starttime="20180403 21:01:16.536"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:03.149" starttime="20180318 15:21:00.029"></status>
+<status status="PASS" endtime="20180403 21:01:16.557" starttime="20180403 21:01:13.414"></status>
 </kw>
 <kw type="teardown" name="End Web Test" library="CommonWeb">
 <doc>This keyword stops the browser</doc>
 <kw name="Close All Browsers" library="Selenium2Library">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" endtime="20180318 15:21:03.205" starttime="20180318 15:21:03.149"></status>
+<status status="PASS" endtime="20180403 21:01:16.616" starttime="20180403 21:01:16.558"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:03.205" starttime="20180318 15:21:03.149"></status>
+<status status="PASS" endtime="20180403 21:01:16.616" starttime="20180403 21:01:16.557"></status>
 </kw>
 <doc>Acessa a página "Team"</doc>
 <tags>
 <tag>test1</tag>
 </tags>
-<status status="PASS" endtime="20180318 15:21:03.205" critical="yes" starttime="20180318 15:20:54.198"></status>
+<status status="PASS" endtime="20180403 21:01:16.616" critical="yes" starttime="20180403 21:01:06.639"></status>
 </test>
 <test id="s1-t2" name="&quot;Team&quot; page should match requirements">
 <kw type="setup" name="Begin Web Test" library="CommonWeb">
@@ -94,10 +94,10 @@
 <arg>about:blank</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20180318 15:21:03.207" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
-<status status="PASS" endtime="20180318 15:21:06.144" starttime="20180318 15:21:03.207"></status>
+<msg timestamp="20180403 21:01:16.620" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20180403 21:01:19.843" starttime="20180403 21:01:16.620"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:06.145" starttime="20180318 15:21:03.206"></status>
+<status status="PASS" endtime="20180403 21:01:19.844" starttime="20180403 21:01:16.620"></status>
 </kw>
 <kw name="Go to &quot;Front-Office&quot; Page" library="FrontOfficeApp">
 <kw name="Navigate to" library="Landing">
@@ -106,10 +106,10 @@
 <arguments>
 <arg>${START_URL}</arg>
 </arguments>
-<msg timestamp="20180318 15:21:06.150" level="INFO">Opening url 'http://www.robotframeworktutorial.com/front-office'</msg>
-<status status="PASS" endtime="20180318 15:21:10.364" starttime="20180318 15:21:06.150"></status>
+<msg timestamp="20180403 21:01:19.847" level="INFO">Opening url 'http://www.robotframeworktutorial.com/front-office'</msg>
+<status status="PASS" endtime="20180403 21:01:24.303" starttime="20180403 21:01:19.846"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:10.365" starttime="20180318 15:21:06.150"></status>
+<status status="PASS" endtime="20180403 21:01:24.305" starttime="20180403 21:01:19.846"></status>
 </kw>
 <kw name="Verify Page Loaded" library="Landing">
 <kw name="Wait Until Page Contains Element" library="Selenium2Library">
@@ -117,11 +117,11 @@
 <arguments>
 <arg>${LANDING_NAVIGATION_ELEMENT}</arg>
 </arguments>
-<status status="PASS" endtime="20180318 15:21:10.399" starttime="20180318 15:21:10.365"></status>
+<status status="PASS" endtime="20180403 21:01:24.342" starttime="20180403 21:01:24.306"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:10.399" starttime="20180318 15:21:10.365"></status>
+<status status="PASS" endtime="20180403 21:01:24.342" starttime="20180403 21:01:24.305"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:10.400" starttime="20180318 15:21:06.149"></status>
+<status status="PASS" endtime="20180403 21:01:24.342" starttime="20180403 21:01:19.845"></status>
 </kw>
 <kw name="Go to &quot;Team&quot; Page" library="FrontOfficeApp">
 <kw name="Select &quot;Team&quot; Page" library="TopNav">
@@ -130,18 +130,18 @@
 <arguments>
 <arg>${TOP_NAV_TEAM_LINK}</arg>
 </arguments>
-<msg timestamp="20180318 15:21:10.401" level="INFO">Clicking element 'css=#bs-example-navbar-collapse-1 &gt; ul li:nth-child(5) &gt; a'.</msg>
-<status status="PASS" endtime="20180318 15:21:10.519" starttime="20180318 15:21:10.400"></status>
+<msg timestamp="20180403 21:01:24.343" level="INFO">Clicking element 'css=#bs-example-navbar-collapse-1 &gt; ul li:nth-child(5) &gt; a'.</msg>
+<status status="PASS" endtime="20180403 21:01:24.456" starttime="20180403 21:01:24.343"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20180318 15:21:13.522" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" endtime="20180318 15:21:13.522" starttime="20180318 15:21:10.519"></status>
+<msg timestamp="20180403 21:01:27.463" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20180403 21:01:27.463" starttime="20180403 21:01:24.456"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:13.525" starttime="20180318 15:21:10.400"></status>
+<status status="PASS" endtime="20180403 21:01:27.463" starttime="20180403 21:01:24.343"></status>
 </kw>
 <kw name="Verify Page Loaded" library="Team">
 <kw name="Wait Until Page Contains Element" library="Selenium2Library">
@@ -149,11 +149,11 @@
 <arguments>
 <arg>${TEAM_HEADER_LABEL}</arg>
 </arguments>
-<status status="PASS" endtime="20180318 15:21:13.564" starttime="20180318 15:21:13.527"></status>
+<status status="PASS" endtime="20180403 21:01:27.476" starttime="20180403 21:01:27.464"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:13.564" starttime="20180318 15:21:13.526"></status>
+<status status="PASS" endtime="20180403 21:01:27.476" starttime="20180403 21:01:27.463"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:13.564" starttime="20180318 15:21:10.400"></status>
+<status status="PASS" endtime="20180403 21:01:27.476" starttime="20180403 21:01:24.342"></status>
 </kw>
 <kw name="Validate &quot;Team&quot; Page" library="FrontOfficeApp">
 <kw name="Validate Page Contents" library="Team">
@@ -165,8 +165,8 @@
 <assign>
 <var>${ElementText}</var>
 </assign>
-<msg timestamp="20180318 15:21:13.588" level="INFO">${ElementText} = OUR AMAZING TEAM</msg>
-<status status="PASS" endtime="20180318 15:21:13.588" starttime="20180318 15:21:13.565"></status>
+<msg timestamp="20180403 21:01:27.501" level="INFO">${ElementText} = OUR AMAZING TEAM</msg>
+<status status="PASS" endtime="20180403 21:01:27.501" starttime="20180403 21:01:27.477"></status>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <doc>Fails if objects are unequal after converting them to strings.</doc>
@@ -175,28 +175,28 @@
 <arg>Our Amazing Team</arg>
 <arg>ignore_case=true</arg>
 </arguments>
-<status status="PASS" endtime="20180318 15:21:13.589" starttime="20180318 15:21:13.588"></status>
+<status status="PASS" endtime="20180403 21:01:27.502" starttime="20180403 21:01:27.501"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:13.589" starttime="20180318 15:21:13.565"></status>
+<status status="PASS" endtime="20180403 21:01:27.502" starttime="20180403 21:01:27.476"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:13.589" starttime="20180318 15:21:13.564"></status>
+<status status="PASS" endtime="20180403 21:01:27.502" starttime="20180403 21:01:27.476"></status>
 </kw>
 <kw type="teardown" name="End Web Test" library="CommonWeb">
 <doc>This keyword stops the browser</doc>
 <kw name="Close All Browsers" library="Selenium2Library">
 <doc>Closes all open browsers and resets the browser cache.</doc>
-<status status="PASS" endtime="20180318 15:21:13.655" starttime="20180318 15:21:13.590"></status>
+<status status="PASS" endtime="20180403 21:01:27.559" starttime="20180403 21:01:27.503"></status>
 </kw>
-<status status="PASS" endtime="20180318 15:21:13.656" starttime="20180318 15:21:13.590"></status>
+<status status="PASS" endtime="20180403 21:01:27.559" starttime="20180403 21:01:27.502"></status>
 </kw>
 <doc>Verifica se está na página "Team"</doc>
 <tags>
 <tag>test2</tag>
 </tags>
-<status status="PASS" endtime="20180318 15:21:13.656" critical="yes" starttime="20180318 15:21:03.206"></status>
+<status status="PASS" endtime="20180403 21:01:27.559" critical="yes" starttime="20180403 21:01:16.618"></status>
 </test>
 <doc>This test shows the Front Office's team</doc>
-<status status="PASS" endtime="20180318 15:21:13.657" starttime="20180318 15:20:54.110"></status>
+<status status="PASS" endtime="20180403 21:01:27.560" starttime="20180403 21:01:06.546"></status>
 </suite>
 <statistics>
 <total>
