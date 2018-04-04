@@ -10,7 +10,7 @@ Test Teardown  Common.End Web Test
 Suite Teardown  Common.Cleanup Testing Data
 
 *** Variables ***
-${BROWSER} =  firefox
+${BROWSER} =  chrome
 ${START_URL} =  http://www.amazon.com
 ${SEARCH_TERM} =  Lamborghini Gallardo
 ${LOGIN_EMAIL} =  admin@robotframeworktutorial.com

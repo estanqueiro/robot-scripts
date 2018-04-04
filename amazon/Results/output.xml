@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20180317 18:30:47.974" generator="Robot 3.0.2 (Python 2.7.12 on linux2)">
+<robot generated="20180404 19:22:10.713" generator="Robot 3.0.3rc1 (Python 2.7.12 on linux2)">
 <suite source="/home/estanqueiro/PycharmProjects/robot-scripts/amazon/Tests/Amazon.robot" id="s1" name="Amazon">
 <kw type="setup" name="Insert Testing Data" library="Common">
 <kw name="Custom Keyword 1" library="Common">
@@ -8,10 +8,10 @@
 <arguments>
 <arg>Doing keyword 1</arg>
 </arguments>
-<msg timestamp="20180317 18:30:48.071" level="INFO">Doing keyword 1</msg>
-<status status="PASS" endtime="20180317 18:30:48.071" starttime="20180317 18:30:48.071"></status>
+<msg timestamp="20180404 19:22:10.807" level="INFO">Doing keyword 1</msg>
+<status status="PASS" endtime="20180404 19:22:10.807" starttime="20180404 19:22:10.807"></status>
 </kw>
-<status status="PASS" endtime="20180317 18:30:48.071" starttime="20180317 18:30:48.071"></status>
+<status status="PASS" endtime="20180404 19:22:10.808" starttime="20180404 19:22:10.807"></status>
 </kw>
 <kw name="Custom Keyword 2" library="Common">
 <kw name="Log" library="BuiltIn">
@@ -19,12 +19,12 @@
 <arguments>
 <arg>Doing keyword 2</arg>
 </arguments>
-<msg timestamp="20180317 18:30:48.072" level="INFO">Doing keyword 2</msg>
-<status status="PASS" endtime="20180317 18:30:48.072" starttime="20180317 18:30:48.071"></status>
+<msg timestamp="20180404 19:22:10.808" level="INFO">Doing keyword 2</msg>
+<status status="PASS" endtime="20180404 19:22:10.808" starttime="20180404 19:22:10.808"></status>
 </kw>
-<status status="PASS" endtime="20180317 18:30:48.072" starttime="20180317 18:30:48.071"></status>
+<status status="PASS" endtime="20180404 19:22:10.808" starttime="20180404 19:22:10.808"></status>
 </kw>
-<status status="PASS" endtime="20180317 18:30:48.072" starttime="20180317 18:30:48.070"></status>
+<status status="PASS" endtime="20180404 19:22:10.808" starttime="20180404 19:22:10.807"></status>
 </kw>
 <test id="s1-t1" name="Should be able to login">
 <kw type="setup" name="Begin Web Test" library="Common">
@@ -34,10 +34,14 @@
 <arg>about:blank</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20180317 18:30:48.073" level="INFO">Opening browser 'firefox' to base url 'about:blank'</msg>
-<status status="PASS" endtime="20180317 18:30:52.012" starttime="20180317 18:30:48.073"></status>
+<msg timestamp="20180404 19:22:10.809" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20180404 19:22:13.162" starttime="20180404 19:22:10.809"></status>
 </kw>
-<status status="PASS" endtime="20180317 18:30:52.012" starttime="20180317 18:30:48.072"></status>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20180404 19:22:13.265" starttime="20180404 19:22:13.162"></status>
+</kw>
+<status status="PASS" endtime="20180404 19:22:13.265" starttime="20180404 19:22:10.809"></status>
 </kw>
 <kw name="Login" library="AmazonApp">
 <arguments>
@@ -58,10 +62,10 @@
 <arguments>
 <arg>Filling Email field with ${Username}</arg>
 </arguments>
-<msg timestamp="20180317 18:30:52.028" level="INFO">Filling Email field with admin@robotframeworktutorial.com</msg>
-<status status="PASS" endtime="20180317 18:30:52.028" starttime="20180317 18:30:52.027"></status>
+<msg timestamp="20180404 19:22:13.266" level="INFO">Filling Email field with admin@robotframeworktutorial.com</msg>
+<status status="PASS" endtime="20180404 19:22:13.267" starttime="20180404 19:22:13.266"></status>
 </kw>
-<status status="PASS" endtime="20180317 18:30:52.028" starttime="20180317 18:30:52.021"></status>
+<status status="PASS" endtime="20180404 19:22:13.267" starttime="20180404 19:22:13.266"></status>
 </kw>
 <kw name="Fill &quot;Password&quot; Field" library="SignInPage">
 <arguments>
@@ -72,10 +76,10 @@
 <arguments>
 <arg>Filling Password field with ${Password}</arg>
 </arguments>
-<msg timestamp="20180317 18:30:52.029" level="INFO">Filling Password field with myPassword1</msg>
-<status status="PASS" endtime="20180317 18:30:52.029" starttime="20180317 18:30:52.029"></status>
+<msg timestamp="20180404 19:22:13.267" level="INFO">Filling Password field with myPassword1</msg>
+<status status="PASS" endtime="20180404 19:22:13.267" starttime="20180404 19:22:13.267"></status>
 </kw>
-<status status="PASS" endtime="20180317 18:30:52.029" starttime="20180317 18:30:52.028"></status>
+<status status="PASS" endtime="20180404 19:22:13.267" starttime="20180404 19:22:13.267"></status>
 </kw>
 <kw name="Click &quot;Sign In&quot; Button" library="SignInPage">
 <kw name="Log" library="BuiltIn">
@@ -83,26 +87,284 @@
 <arguments>
 <arg>Clicking submit button</arg>
 </arguments>
-<msg timestamp="20180317 18:30:52.030" level="INFO">Clicking submit button</msg>
-<status status="PASS" endtime="20180317 18:30:52.030" starttime="20180317 18:30:52.029"></status>
+<msg timestamp="20180404 19:22:13.268" level="INFO">Clicking submit button</msg>
+<status status="PASS" endtime="20180404 19:22:13.268" starttime="20180404 19:22:13.268"></status>
 </kw>
-<status status="PASS" endtime="20180317 18:30:52.030" starttime="20180317 18:30:52.029"></status>
+<status status="PASS" endtime="20180404 19:22:13.268" starttime="20180404 19:22:13.267"></status>
 </kw>
-<status status="PASS" endtime="20180317 18:30:52.030" starttime="20180317 18:30:52.019"></status>
+<status status="PASS" endtime="20180404 19:22:13.268" starttime="20180404 19:22:13.266"></status>
 </kw>
-<status status="PASS" endtime="20180317 18:30:52.030" starttime="20180317 18:30:52.013"></status>
+<status status="PASS" endtime="20180404 19:22:13.268" starttime="20180404 19:22:13.265"></status>
 </kw>
 <kw type="teardown" name="End Web Test" library="Common">
 <kw name="Close Browser" library="Selenium2Library">
 <doc>Closes the current browser.</doc>
-<status status="PASS" endtime="20180317 18:30:52.293" starttime="20180317 18:30:52.031"></status>
+<status status="PASS" endtime="20180404 19:22:13.325" starttime="20180404 19:22:13.269"></status>
 </kw>
-<status status="PASS" endtime="20180317 18:30:52.293" starttime="20180317 18:30:52.030"></status>
+<status status="PASS" endtime="20180404 19:22:13.326" starttime="20180404 19:22:13.268"></status>
 </kw>
 <tags>
 <tag>First</tag>
 </tags>
-<status status="PASS" endtime="20180317 18:30:52.294" critical="yes" starttime="20180317 18:30:48.072"></status>
+<status status="PASS" endtime="20180404 19:22:13.327" critical="yes" starttime="20180404 19:22:10.808"></status>
+</test>
+<test id="s1-t2" name="Logged out user should be able to search for products">
+<kw type="setup" name="Begin Web Test" library="Common">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20180404 19:22:13.330" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20180404 19:22:16.313" starttime="20180404 19:22:13.329"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20180404 19:22:16.418" starttime="20180404 19:22:16.314"></status>
+</kw>
+<status status="PASS" endtime="20180404 19:22:16.418" starttime="20180404 19:22:13.329"></status>
+</kw>
+<kw name="Search for Products" library="AmazonApp">
+<kw name="Load" library="LandingPage">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${START_URL}</arg>
+</arguments>
+<msg timestamp="20180404 19:22:16.419" level="INFO">Opening url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20180404 19:22:24.202" starttime="20180404 19:22:16.419"></status>
+</kw>
+<status status="PASS" endtime="20180404 19:22:24.202" starttime="20180404 19:22:16.419"></status>
+</kw>
+<kw name="Verify Page Loaded" library="LandingPage">
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Your Amazon.com</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20180404 19:22:29.904" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20180404 19:22:29.904" starttime="20180404 19:22:29.419"></status>
+</kw>
+<msg timestamp="20180404 19:22:29.926" level="FAIL">Text 'Your Amazon.com' did not appear in 5 seconds</msg>
+<status status="FAIL" endtime="20180404 19:22:29.926" starttime="20180404 19:22:24.202"></status>
+</kw>
+<status status="FAIL" endtime="20180404 19:22:29.926" starttime="20180404 19:22:24.202"></status>
+</kw>
+<status status="FAIL" endtime="20180404 19:22:29.926" starttime="20180404 19:22:16.418"></status>
+</kw>
+<kw type="teardown" name="End Web Test" library="Common">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20180404 19:22:29.999" starttime="20180404 19:22:29.927"></status>
+</kw>
+<status status="PASS" endtime="20180404 19:22:29.999" starttime="20180404 19:22:29.927"></status>
+</kw>
+<tags>
+<tag>Current</tag>
+</tags>
+<status status="FAIL" endtime="20180404 19:22:29.999" critical="yes" starttime="20180404 19:22:13.328">Text 'Your Amazon.com' did not appear in 5 seconds</status>
+</test>
+<test id="s1-t3" name="Logged out user should be able to view a product">
+<kw type="setup" name="Begin Web Test" library="Common">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20180404 19:22:30.002" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20180404 19:22:33.185" starttime="20180404 19:22:30.001"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20180404 19:22:33.299" starttime="20180404 19:22:33.185"></status>
+</kw>
+<status status="PASS" endtime="20180404 19:22:33.299" starttime="20180404 19:22:30.001"></status>
+</kw>
+<kw name="Search for Products" library="AmazonApp">
+<kw name="Load" library="LandingPage">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${START_URL}</arg>
+</arguments>
+<msg timestamp="20180404 19:22:33.302" level="INFO">Opening url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20180404 19:22:40.864" starttime="20180404 19:22:33.301"></status>
+</kw>
+<status status="PASS" endtime="20180404 19:22:40.864" starttime="20180404 19:22:33.301"></status>
+</kw>
+<kw name="Verify Page Loaded" library="LandingPage">
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Your Amazon.com</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20180404 19:22:50.141" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20180404 19:22:50.141" starttime="20180404 19:22:49.572"></status>
+</kw>
+<msg timestamp="20180404 19:22:50.141" level="FAIL">Text 'Your Amazon.com' did not appear in 5 seconds</msg>
+<status status="FAIL" endtime="20180404 19:22:50.141" starttime="20180404 19:22:40.864"></status>
+</kw>
+<status status="FAIL" endtime="20180404 19:22:50.141" starttime="20180404 19:22:40.864"></status>
+</kw>
+<status status="FAIL" endtime="20180404 19:22:50.142" starttime="20180404 19:22:33.300"></status>
+</kw>
+<kw type="teardown" name="End Web Test" library="Common">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20180404 19:22:50.255" starttime="20180404 19:22:50.144"></status>
+</kw>
+<status status="PASS" endtime="20180404 19:22:50.255" starttime="20180404 19:22:50.142"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="FAIL" endtime="20180404 19:22:50.255" critical="yes" starttime="20180404 19:22:30.000">Text 'Your Amazon.com' did not appear in 5 seconds</status>
+</test>
+<test id="s1-t4" name="Logged out user should be able to add products to cart">
+<kw type="setup" name="Begin Web Test" library="Common">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20180404 19:22:50.258" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20180404 19:22:52.372" starttime="20180404 19:22:50.258"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20180404 19:22:52.500" starttime="20180404 19:22:52.372"></status>
+</kw>
+<status status="PASS" endtime="20180404 19:22:52.500" starttime="20180404 19:22:50.257"></status>
+</kw>
+<kw name="Search for Products" library="AmazonApp">
+<kw name="Load" library="LandingPage">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${START_URL}</arg>
+</arguments>
+<msg timestamp="20180404 19:22:52.501" level="INFO">Opening url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20180404 19:23:00.091" starttime="20180404 19:22:52.501"></status>
+</kw>
+<status status="PASS" endtime="20180404 19:23:00.092" starttime="20180404 19:22:52.501"></status>
+</kw>
+<kw name="Verify Page Loaded" library="LandingPage">
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Your Amazon.com</arg>
+</arguments>
+<status status="PASS" endtime="20180404 19:23:00.374" starttime="20180404 19:23:00.092"></status>
+</kw>
+<status status="PASS" endtime="20180404 19:23:00.375" starttime="20180404 19:23:00.092"></status>
+</kw>
+<kw name="Search for Products" library="SearchPage">
+<kw name="Enter Search Term" library="SearchPage">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${SEARCH_BAR}</arg>
+<arg>${SEARCH_TERM}</arg>
+</arguments>
+<msg timestamp="20180404 19:23:00.376" level="INFO">Typing text 'Lamborghini Gallardo' into text field 'id=twotabsearchtextbox'</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20180404 19:23:05.843" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20180404 19:23:05.843" starttime="20180404 19:23:05.247"></status>
+</kw>
+<msg timestamp="20180404 19:23:05.894" level="FAIL">WebDriverException: Message: unknown error: call function result missing 'value'
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.13.0-38-generic x86_64)
+</msg>
+<status status="FAIL" endtime="20180404 19:23:05.894" starttime="20180404 19:23:00.376"></status>
+</kw>
+<status status="FAIL" endtime="20180404 19:23:05.895" starttime="20180404 19:23:00.376"></status>
+</kw>
+<status status="FAIL" endtime="20180404 19:23:05.895" starttime="20180404 19:23:00.375"></status>
+</kw>
+<status status="FAIL" endtime="20180404 19:23:05.895" starttime="20180404 19:22:52.500"></status>
+</kw>
+<kw type="teardown" name="End Web Test" library="Common">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20180404 19:23:05.993" starttime="20180404 19:23:05.896"></status>
+</kw>
+<status status="PASS" endtime="20180404 19:23:05.993" starttime="20180404 19:23:05.896"></status>
+</kw>
+<doc>This is some basic info about the test</doc>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="FAIL" endtime="20180404 19:23:05.994" critical="yes" starttime="20180404 19:22:50.256">WebDriverException: Message: unknown error: call function result missing 'value'
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.13.0-38-generic x86_64)
+</status>
+</test>
+<test id="s1-t5" name="Logged out user should be asked to sigh in to check out">
+<kw type="setup" name="Begin Web Test" library="Common">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20180404 19:23:06.004" level="INFO">Opening browser 'chrome' to base url 'about:blank'</msg>
+<status status="PASS" endtime="20180404 19:23:08.101" starttime="20180404 19:23:06.004"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20180404 19:23:08.224" starttime="20180404 19:23:08.102"></status>
+</kw>
+<status status="PASS" endtime="20180404 19:23:08.224" starttime="20180404 19:23:06.002"></status>
+</kw>
+<kw name="Search for Products" library="AmazonApp">
+<kw name="Load" library="LandingPage">
+<kw name="Go To" library="Selenium2Library">
+<doc>Navigates the active browser instance to the provided URL.</doc>
+<arguments>
+<arg>${START_URL}</arg>
+</arguments>
+<msg timestamp="20180404 19:23:08.225" level="INFO">Opening url 'http://www.amazon.com'</msg>
+<status status="PASS" endtime="20180404 19:23:16.325" starttime="20180404 19:23:08.225"></status>
+</kw>
+<status status="PASS" endtime="20180404 19:23:16.325" starttime="20180404 19:23:08.225"></status>
+</kw>
+<kw name="Verify Page Loaded" library="LandingPage">
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Your Amazon.com</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20180404 19:23:21.796" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20180404 19:23:21.796" starttime="20180404 19:23:21.412"></status>
+</kw>
+<msg timestamp="20180404 19:23:21.796" level="FAIL">Text 'Your Amazon.com' did not appear in 5 seconds</msg>
+<status status="FAIL" endtime="20180404 19:23:21.796" starttime="20180404 19:23:16.326"></status>
+</kw>
+<status status="FAIL" endtime="20180404 19:23:21.797" starttime="20180404 19:23:16.325"></status>
+</kw>
+<status status="FAIL" endtime="20180404 19:23:21.797" starttime="20180404 19:23:08.224"></status>
+</kw>
+<kw type="teardown" name="End Web Test" library="Common">
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20180404 19:23:22.878" starttime="20180404 19:23:21.797"></status>
+</kw>
+<status status="PASS" endtime="20180404 19:23:22.878" starttime="20180404 19:23:21.797"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="FAIL" endtime="20180404 19:23:22.879" critical="yes" starttime="20180404 19:23:05.998">Text 'Your Amazon.com' did not appear in 5 seconds</status>
 </test>
 <kw type="teardown" name="Cleanup Testing Data" library="Common">
 <kw name="Log" library="BuiltIn">
@@ -110,24 +372,26 @@
 <arguments>
 <arg>I am cleaning up the test data...</arg>
 </arguments>
-<msg timestamp="20180317 18:30:52.295" level="INFO">I am cleaning up the test data...</msg>
-<status status="PASS" endtime="20180317 18:30:52.295" starttime="20180317 18:30:52.295"></status>
+<msg timestamp="20180404 19:23:22.888" level="INFO">I am cleaning up the test data...</msg>
+<status status="PASS" endtime="20180404 19:23:22.888" starttime="20180404 19:23:22.886"></status>
 </kw>
-<status status="PASS" endtime="20180317 18:30:52.295" starttime="20180317 18:30:52.295"></status>
+<status status="PASS" endtime="20180404 19:23:22.889" starttime="20180404 19:23:22.885"></status>
 </kw>
 <doc>This is some basic info about the whole suite</doc>
-<status status="PASS" endtime="20180317 18:30:52.295" starttime="20180317 18:30:47.981"></status>
+<status status="FAIL" endtime="20180404 19:23:22.889" starttime="20180404 19:22:10.715"></status>
 </suite>
 <statistics>
 <total>
-<stat fail="0" pass="1">Critical Tests</stat>
-<stat fail="0" pass="1">All Tests</stat>
+<stat fail="4" pass="1">Critical Tests</stat>
+<stat fail="4" pass="1">All Tests</stat>
 </total>
 <tag>
+<stat fail="1" pass="0">Current</stat>
 <stat fail="0" pass="1">First</stat>
+<stat fail="3" pass="0">Smoke</stat>
 </tag>
 <suite>
-<stat fail="0" id="s1" name="Amazon" pass="1">Amazon</stat>
+<stat fail="4" id="s1" name="Amazon" pass="1">Amazon</stat>
 </suite>
 </statistics>
 <errors>

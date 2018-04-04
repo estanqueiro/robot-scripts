@@ -5,8 +5,8 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="-1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta content="Robot Framework 3.0.2 (Python 2.7.12 on linux2)" name="Generator">
-<link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAJEBoACtnfgA5cYYAERsiAEx2lAAbKkQAcazBACZCVwAcM1cAK0ucAAMDBQAnQncASG+FABkoVQAyWmgA6f8SgvH/Ij99+GLyIinyJfn/Yi//KSLzUy9iZogpIld3/4JVVTkid7vyUjNVNVJEAGOZ6Z7pXwAABpmZkRiLAAAGiJZpmGAAAEEt3SXdxAAATC7o/u3EAAC8MRZpjasAAAY1VVVTYAAABKqqqqpAAAAADKqq4AAAAAAAv4sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMADAADgAwAA4AcAAOAHAADgBwAAwAcAAOAHAADgDwAA8A8AAPg/AAD+fwAA">
+<meta content="Robot Framework 3.0.3rc1 (Python 2.7.12 on linux2)" name="Generator">
+<link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKcAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAqAAAAAAAAAAAAAAAAAAAALIAAAD/AAAA4AAAANwAAADcAAAA3AAAANwAAADcAAAA3AAAANwAAADcAAAA4AAAAP8AAACxAAAAAAAAAKYAAAD/AAAAuwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC/AAAA/wAAAKkAAAD6AAAAzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN8AAAD/AAAA+gAAAMMAAAAAAAAAAgAAAGsAAABrAAAAawAAAGsAAABrAAAAawAAAGsAAABrAAAADAAAAAAAAADaAAAA/wAAAPoAAADDAAAAAAAAAIsAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAANEAAAAAAAAA2gAAAP8AAAD6AAAAwwAAAAAAAAAAAAAAMgAAADIAAAAyAAAAMgAAADIAAAAyAAAAMgAAADIAAAAFAAAAAAAAANoAAAD/AAAA+gAAAMMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADaAAAA/wAAAPoAAADDAAAAAAAAADwAAAB8AAAAAAAAAGAAAABcAAAAAAAAAH8AAABKAAAAAAAAAAAAAAAAAAAA2gAAAP8AAAD6AAAAwwAAAAAAAADCAAAA/wAAACkAAADqAAAA4QAAAAAAAAD7AAAA/wAAALAAAAAGAAAAAAAAANoAAAD/AAAA+gAAAMMAAAAAAAAAIwAAAP4AAAD/AAAA/wAAAGAAAAAAAAAAAAAAAMkAAAD/AAAAigAAAAAAAADaAAAA/wAAAPoAAADDAAAAAAAAAAAAAAAIAAAAcAAAABkAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAA2gAAAP8AAAD7AAAAywAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN4AAAD/AAAAqwAAAP8AAACvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALIAAAD/AAAAsgAAAAAAAAC5AAAA/wAAAMoAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMkAAAD/AAAAvAAAAAAAAAAAAAAAAAAAAKwAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAArQAAAAAAAAAAwAMAAIABAAAf+AAAP/wAAD/8AAAgBAAAP/wAAD/8AAA//AAAJIwAADHEAAA//AAAP/wAAB/4AACAAQAAwAMAAA==">
 <style media="all" type="text/css">
 /* Generic and misc styles */
 body {
@@ -27,6 +27,11 @@ th, td {
 }
 br {
     mso-data-placement: same-cell; /* maintain line breaks in Excel */
+}
+hr {
+    background: #ccc;
+    height: 1px;
+    border: 0;
 }
 a, a:link, a:visited {
     text-decoration: none;
@@ -1545,20 +1550,30 @@ function stopPropagation(event) {
 <script type="text/javascript">
 storage = function () {
     var prefix = 'robot-framework-';
+    var storage;
     function init(user) {
         prefix += user + '-';
+        storage = getStorage();
+    }
+    function getStorage() {
+        // Use localStorage if it's accessible, normal object otherwise.
+        // Inspired by https://stackoverflow.com/questions/11214404
+        try {
+            localStorage.setItem(prefix, prefix);
+            localStorage.removeItem(prefix);
+            return localStorage;
+        } catch (exception) {
+            return {};
+        }
     }
     function get(name, defaultValue) {
-        if (!localStorage)
-            return defaultValue;
-        var value = localStorage[prefix + name];
+        var value = storage[prefix + name];
         if (typeof value === 'undefined')
             return defaultValue;
         return value;
     }
     function set(name, value) {
-        if (localStorage)
-            localStorage[prefix + name] = value;
+        storage[prefix + name] = value;
     }
     return {init: init, get: get, set: set};
 }();
@@ -1567,22 +1582,22 @@ storage = function () {
 window.output = {};
 </script>
 <script type="text/javascript">
-window.output["suite"] = [1,2,3,4,[],[1,0,4314],[],[[5,0,1,0,[6],[1,91,4222],[]]],[],[1,1,1,1]];
+window.output["suite"] = [1,2,3,4,[],[0,0,72174],[],[[5,0,1,0,[6],[1,93,2519],[]],[7,0,1,0,[8],[0,2613,16671,9],[]],[10,0,1,0,[11],[0,19285,20255,9],[]],[12,0,1,13,[11],[0,39541,15738,14],[]],[15,0,1,0,[11],[0,55283,16881,9],[]]],[],[5,1,5,1]];
 </script>
 <script type="text/javascript">
 window.output["strings"] = [];
 </script>
 <script type="text/javascript">
-window.output["strings"] = window.output["strings"].concat(["*","*Amazon","*/home/estanqueiro/PycharmProjects/robot-scripts/amazon/Tests/Amazon.robot","*../Tests/Amazon.robot","*<p>This is some basic info about the whole suite\x3c/p>","*Should be able to login","*First"]);
+window.output["strings"] = window.output["strings"].concat(["*","*Amazon","*/home/estanqueiro/PycharmProjects/robot-scripts/amazon/Tests/Amazon.robot","*../Tests/Amazon.robot","*<p>This is some basic info about the whole suite\x3c/p>","*Should be able to login","*First","*Logged out user should be able to search for products","*Current","*Text 'Your Amazon.com' did not appear in 5 seconds","*Logged out user should be able to view a product","*Smoke","*Logged out user should be able to add products to cart","*<p>This is some basic info about the test\x3c/p>","*WebDriverException: Message: unknown error: call function result missing 'value'\n  (Session info: chrome=65.0.3325.181)\n  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.13.0-38-generic x86_64)\n","*Logged out user should be asked to sigh in to check out"]);
 </script>
 <script type="text/javascript">
-window.output["stats"] = [[{"elapsed":"00:00:04","fail":0,"label":"Critical Tests","pass":1},{"elapsed":"00:00:04","fail":0,"label":"All Tests","pass":1}],[{"elapsed":"00:00:04","fail":0,"label":"First","pass":1}],[{"elapsed":"00:00:04","fail":0,"id":"s1","label":"Amazon","name":"Amazon","pass":1}]];
+window.output["stats"] = [[{"elapsed":"00:01:12","fail":4,"label":"Critical Tests","pass":1},{"elapsed":"00:01:12","fail":4,"label":"All Tests","pass":1}],[{"elapsed":"00:00:17","fail":1,"label":"Current","pass":0},{"elapsed":"00:00:03","fail":0,"label":"First","pass":1},{"elapsed":"00:00:53","fail":3,"label":"Smoke","pass":0}],[{"elapsed":"00:01:12","fail":4,"id":"s1","label":"Amazon","name":"Amazon","pass":1}]];
 </script>
 <script type="text/javascript">
-window.output["baseMillis"] = 1521322247981;
+window.output["baseMillis"] = 1522880530715;
 </script>
 <script type="text/javascript">
-window.output["generated"] = 4327;
+window.output["generated"] = 72215;
 </script>
 <script type="text/javascript">
 window.settings = {"background":{"fail":"#f66","nonCriticalFail":"#9e9","pass":"#9e9"},"logURL":"log.html","title":""};

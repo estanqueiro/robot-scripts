@@ -3,10 +3,11 @@ Library  Selenium2Library
 
 *** Keywords ***
 Begin Web Test
-    open browser  about:blank  ${BROWSER}
+    Open Browser  about:blank  ${BROWSER}
+    Maximize Browser Window
 
 End Web Test
-    close browser
+    Close Browser
 
 Insert Testing Data
     Custom Keyword 1
