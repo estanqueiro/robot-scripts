@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8968a98-6d3b-4c70-a480-800dd3d36f9f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/estanqueiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/ElseIf.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Loops.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Common.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Common.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/PO/CartPage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PO/CartPage.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Amazon.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Amazon.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/log.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/output.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/selenium-screenshot-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-office/.idea/front-office.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../front-office/.idea/front-office.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-office/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../front-office/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-office/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front-office/Results/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-office/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../front-office/Results/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front-office/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front-office/Results/report.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,13 +21,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Amazon.robot" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Amazon.robot" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/Amazon.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="-57">
               <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
                 <element signature="e#0#369#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="passing.robot" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/passing.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElseIf.robot" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/ElseIf.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Loops.robot" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/Loops.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,14 +83,16 @@
         <option value="$PROJECT_DIR$/Resources/PO/CartPage.robot" />
         <option value="$PROJECT_DIR$/Resources/Common.robot" />
         <option value="$PROJECT_DIR$/Tests/Amazon.robot" />
+        <option value="$PROJECT_DIR$/Tests/ElseIf.robot" />
+        <option value="$PROJECT_DIR$/Tests/Loops.robot" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1082" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="988" />
     <option name="y" value="24" />
-    <option name="width" value="838" />
-    <option name="height" value="926" />
+    <option name="width" value="930" />
+    <option name="height" value="890" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -99,22 +118,12 @@
             <path>
               <item name="amazon" type="b2602c69:ProjectViewProjectNode" />
               <item name="amazon" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="PO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amazon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="amazon" type="462c0819:PsiDirectoryNode" />
               <item name="Results" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="amazon" type="b2602c69:ProjectViewProjectNode" />
               <item name="amazon" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="amazon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -124,7 +133,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.robot" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -193,18 +202,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="962" extended-state="6" />
+    <frame x="988" y="24" width="930" height="890" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6014581" visible="true" weight="0.15699281" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5869565" visible="true" weight="0.23153253" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32998747" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50054586" side_tool="true" weight="0.34993926" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32998747" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32873276" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" sideWeight="0.39854193" side_tool="true" visible="true" weight="0.15699281" />
-      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.4599226" />
+      <window_info id="Structure" order="1" sideWeight="0.41304347" side_tool="true" visible="true" weight="0.23153253" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49945414" visible="true" weight="0.27272728" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -375,24 +384,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/geckodriver.log" />
-    <entry file="file://$PROJECT_DIR$/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7614">
-          <caret line="423" column="59" lean-forward="true" selection-start-line="423" selection-start-column="59" selection-end-line="423" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/PO/LandingPage.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/passing.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -426,13 +421,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/PO/ProductPage.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/PO/SearchPage.robot">
       <provider selected="true" editor-type-id="text-editor">
@@ -467,10 +456,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Amazon.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="-57">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
             <element signature="e#0#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/passing.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/ElseIf.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="423" column="59" selection-start-line="423" selection-start-column="59" selection-end-line="423" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Loops.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
